@@ -486,3 +486,40 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .card-3 {
+        grid-template-columns: 1fr; 
+        padding: 20px 15px;
+        text-align: center; 
+    }
+
+    .card-3 img {
+        width: 100%; 
+    }
+
+    .card-3 video {
+        width: 100%; 
+        height: auto; 
+        top: 0; 
+        left: 0;
+    }
+
+    .card-container {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-3 {
+        padding: 15px 10px;
+    }
+
+    .card-3 img {
+        width: 100%; 
+    }
+
+    .card-3 video {
+        width: 100%; 
+    }
+}
